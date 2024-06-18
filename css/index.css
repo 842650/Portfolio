@@ -1,0 +1,95 @@
+#project {
+    background-image: url("../images/主頁圖.jpg");
+
+}
+
+/* #about{
+    background-image: url("../images/背景.png");
+} */
+#content {
+    width: auto;
+    background-image: url("../images/背景.png");
+
+}
+
+#me {
+    background-image: url("../images/關於我新版.jpg");
+}
+
+/* #contact{
+    background-image: url("../images/p4.jpg");
+} */
+
+
+/* 影片部分 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+
+}
+
+/* 影片部分結束 */
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.pictureline1 {
+    overflow: hidden;
+    padding: 75px 50px;
+    z-index: -1;
+}
+
+.pictureroad{
+    float:left;
+    float: right;
+}
+
+section {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 200px
+}
+
+.tet-bg {
+    background-color: rgba(255, 255, 255, 0.850);
+    border-radius: 50px;
+    text-align: justify;
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+}
+
+.tet-bg h2 {
+    text-align: center;
+}
+
+.tet-bg h2 i {
+    color: rgb(16, 139, 16);
+}
